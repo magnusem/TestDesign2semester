@@ -8,6 +8,15 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel HorizontalAlignment="Left" Height="640" VerticalAlignment="Top" Width="360">
+            <TextBlock x:Name="BørnTextblock" TextWrapping="Wrap" Text="Børn" Height="44" SelectionChanged="textBlock_SelectionChanged" FontSize="36" Margin="40,20,40,0" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            <ListView x:Name="listView" Height="183" BorderThickness="0.5" BorderBrush="Black" Margin="10,15,10,0"/>
+            <StackPanel Height="118" Margin="0,37,0,0" Orientation="Horizontal">
+                <Button x:Name="OpretBarn" Content="Opret" HorizontalAlignment="Left" VerticalAlignment="Stretch" Height="53" Width="100" Click="button_Click" Margin="80,0,0,0"/>
+                <Button x:Name="SletBarn" Content="Slet" HorizontalAlignment="Right" VerticalAlignment="Stretch" Height="53" Width="100" Margin="20,33,0,32"/>
+            </StackPanel>
+            <Button x:Name="button" Content="Se vaccinationskort" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="83" FontSize="24" Margin="50,0"/>
+        </StackPanel>
 
     </Grid>
 </Page>

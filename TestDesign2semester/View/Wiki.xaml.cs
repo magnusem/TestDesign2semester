@@ -26,5 +26,10 @@ namespace TestDesign2semester.View
         {
             this.InitializeComponent();
         }
+
+        private void textBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

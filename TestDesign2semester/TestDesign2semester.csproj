@@ -98,12 +98,18 @@
     <Compile Include="View\Familie.xaml.cs">
       <DependentUpon>Familie.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\OpretBarn.xaml.cs">
+      <DependentUpon>OpretBarn.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\HovedMenu.xaml.cs">
       <DependentUpon>HovedMenu.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="View\VaccinationsKort.xaml.cs">
       <DependentUpon>VaccinationsKort.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\VaccinationsKortForBarn.xaml.cs">
+      <DependentUpon>VaccinationsKortForBarn.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\Wiki.xaml.cs">
       <DependentUpon>Wiki.xaml</DependentUpon>
@@ -134,11 +140,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="View\OpretBarn.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\HovedMenu.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
     <Page Include="View\VaccinationsKort.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\VaccinationsKortForBarn.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
