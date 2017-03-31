@@ -8,11 +8,33 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Frame Name="MyFrame"/>
-        <StackPanel HorizontalAlignment="Left" Height="640" VerticalAlignment="Top" Width="360">
-            <Button x:Name="HovedMenuWiki" HorizontalAlignment="Stretch" VerticalAlignment="Center" Height="100" Margin="50,80,50,0" Content="Wiki" FontSize="28" FontWeight="Bold" Click="HovedMenuWiki_Click"/>
-            <Button x:Name="HovedMenuFamilie" HorizontalAlignment="Stretch" VerticalAlignment="Center" Height="100" Margin="50,80,50,0" FontSize="28" FontWeight="Bold" Content="Familie" Click="HovedMenuFamilie_Click"/>
-            <Button x:Name="HovedMenuVaccinationsKort" HorizontalAlignment="Stretch" VerticalAlignment="Center" Height="100" Margin="50,80,50,0" FontSize="28" FontWeight="Bold" Content="Vaccination's kort" Click="HovedMenuVaccinationsKort_Click"/>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button x:Name="HovedMenuWiki"
+                    HorizontalAlignment="Stretch" 
+                    VerticalAlignment="Center" 
+                    Height="100" Content="Wiki" 
+                    FontSize="28" 
+                    FontWeight="Bold" 
+                    Click="HovedMenuWiki_Click"
+                    Margin="0,0,0,20"/>
+            
+            <Button x:Name="HovedMenuFamilie"
+                    HorizontalAlignment="Stretch" 
+                    VerticalAlignment="Center" 
+                    Height="100"  FontSize="28" 
+                    FontWeight="Bold" 
+                    Content="Familie" 
+                    Click="HovedMenuFamilie_Click"
+                    Margin="0,0,0,20"/>
+            
+            <Button x:Name="HovedMenuVaccinationsKort" 
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Center" 
+                    Height="100"  FontSize="28" 
+                    FontWeight="Bold"
+                    Content="Vaccination's kort"
+                    Click="HovedMenuVaccinationsKort_Click"/>
         </StackPanel>
+        <Frame Name="MyFrame"></Frame>
     </Grid>
 </Page>

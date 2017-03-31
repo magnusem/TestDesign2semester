@@ -12,6 +12,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using TestDesign2semester.View;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -29,17 +30,17 @@ namespace TestDesign2semester
 
         private void HovedMenuWiki_Click(object sender, RoutedEventArgs e)
         {
-            MyFrame.Navigate(typeof(View.Wiki));
+            MyFrame.Navigate(typeof(Wiki));
         }
 
         private void HovedMenuFamilie_Click(object sender, RoutedEventArgs e)
         {
-            MyFrame.Navigate(typeof(View.Familie));
+            MyFrame.Navigate(typeof(Familie));
         }
 
         private void HovedMenuVaccinationsKort_Click(object sender, RoutedEventArgs e)
         {
-            MyFrame.Navigate(typeof(View.VaccinationsKort));
+            MyFrame.Navigate(typeof(VaccinationsKort));
         }
     }
 }
